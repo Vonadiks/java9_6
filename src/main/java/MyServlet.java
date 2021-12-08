@@ -2,7 +2,7 @@ import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
 import java.io.IOException;
 
-@WebServlet(urlPatterns = "/my_servlet")
+@WebServlet(urlPatterns = "/")
 public class MyServlet implements Servlet {
 
     public transient ServletConfig config;
@@ -19,7 +19,7 @@ public class MyServlet implements Servlet {
 
     @Override
     public void service(ServletRequest servletRequest, ServletResponse servletResponse) throws ServletException, IOException {
-        servletResponse.getWriter().println("<h1>Hello, Servlet!</h1>");
+        servletResponse.getWriter().println("<h1>HelloWorld</h1>");
     }
 
     @Override

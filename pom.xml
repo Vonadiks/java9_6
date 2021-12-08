@@ -44,7 +44,7 @@
                     <url>http://localhost:8080/manager/text</url>
                     <username>admin</username>
                     <password>password</password>
-                    <path>/servlet-app</path>
+                    <path>/hello</path>
                 </configuration>
             </plugin>
         </plugins>
